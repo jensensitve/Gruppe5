@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    justify-content: center;
+    height: 60vh;
+    gap: 10px;
+}
+
+.cards div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards img {
+    width: 32px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.cards div>p {
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+}
+
+.cards button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 50%;
+    height: 25%;
+    background-color: rgb(242, 199, 68);
+    border: none;
+}
