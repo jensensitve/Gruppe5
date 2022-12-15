@@ -9,31 +9,33 @@
     grid-template-columns: repeat(4, 20%);
     justify-content: center;
     height: 60vh;
-    gap: 10px;
 }
 
-.cards div {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.cards figure {
+.card figure {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.cards img {
+.card img {
     width: 32px;
     height: 32px;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
-.cards div>p {
+.card p {
     display: flex;
     justify-content: center;
-    padding: 2vh;
+    align-items: center;
+    padding: 10px 0;
+    color: red;
 }
 
 .cards button {
@@ -45,4 +47,15 @@
     height: 25%;
     background-color: rgb(242, 199, 68);
     border: none;
+}
+
+.cards button:hover {
+    background-color: rgba(242, 198, 68, 0.802);
+    box-shadow: 3px 3px;
+}
+
+.sold {
+    background-color: rgba(242, 198, 68, 0.481);
+    pointer-events: none;
+    color: grey;
 }
