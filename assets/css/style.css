@@ -110,7 +110,7 @@ h1 {
 .card p {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   padding: 10px 0;
   color: red;
 }
