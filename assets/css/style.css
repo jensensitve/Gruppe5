@@ -1,141 +1,140 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 /* header  */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* header */
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    
-  }
-  .logo {
-    color: red;
-    font-size: 5rem;
-    font-family: 'Caveat', cursive;
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 40rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-family: 'Slabo 27px', serif;
-  
-  }
-  .all {
-    opacity: 0.5;
-  }
-  .orderstatus {
-    font-size: 1.8rem;
-    font-weight: bold;
-    position: relative;
-    top: -.3rem;
-    font-family: 'Slabo 27px', serif;
-  }
-  span {
-    padding: .5rem;
-    border: 1px red solid;
-    border-radius: 50%;
-    
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* header */
 
-
-
-
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.logo {
+  color: red;
+  font-size: 5rem;
+  font-family: "Caveat", cursive;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Slabo 27px", serif;
+}
+.all {
+  opacity: 0.5;
+}
+.orderstatus {
+  font-size: 1.8rem;
+  font-weight: bold;
+  position: relative;
+  top: -0.3rem;
+  font-family: "Slabo 27px", serif;
+}
+span {
+  padding: 0.5rem;
+  border: 1px red solid;
+  border-radius: 50%;
+}
 
 /* searchbar */
-    h1{
-    position: absolute;
-    top: 20%; left: 30%;
-    z-index: 1;
-    }
-    #mysearch {
-    position: absolute;
-    top: 26%; left: 35%;
-    width: 300px;
-    height: 50px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 3px solid lightgray;
-    
-    }
-    ::placeholder{
-    font-size: 20px;
-    color: red;
-    position: absolute;
-    left: 75%; top: 60%;
-    }
-    .cards {
-    display: grid;
-    grid-template-columns: repeat(4, 20%);
-    justify-content: center;
-    height: 60vh;
+h1 {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  z-index: 1;
+ 
+}
+#mysearch {
+  position: absolute;
+  top: 39%;
+  left: 32.5%;
+  width: 300px;
+  height: 3rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid lightgray;
+  
+}
+::placeholder {
+  font-size: 20px;
+  color: red;
+  position: absolute;
+  left: 75%;
+  top: 60%;
+}
+.searchbar {
+  position: relative;
+  top: 2.5rem;
+  left: 10rem;
+ height: 15rem;
+}
+
+/* cards  */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  justify-content: center;
+  height: 60vh;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card figure {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card img {
-    width: 32px;
-    height: 32px;
-    margin-left: 10px;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
 }
 
 .card p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  color: red;
 }
 
 .cards button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    width: 50%;
-    height: 25%;
-    background-color: rgb(242, 199, 68);
-    border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 50%;
+  height: 25%;
+  background-color: rgb(242, 199, 68);
+  border: none;
 }
 
 .cards button:hover {
-    background-color: rgba(242, 198, 68, 0.802);
-    box-shadow: 3px 3px;
+  background-color: rgba(242, 198, 68, 0.802);
+  box-shadow: 3px 3px;
 }
 
 .sold {
-    background-color: rgba(242, 198, 68, 0.481);
-    pointer-events: none;
-    color: grey;
+  background-color: rgba(242, 198, 68, 0.481);
+  pointer-events: none;
+  color: grey;
 }
-
-
