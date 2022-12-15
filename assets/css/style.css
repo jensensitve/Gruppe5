@@ -53,21 +53,19 @@ span {
 h1 {
   position: absolute;
   top: 10%;
-  left: 30%;
+  left: 38%;
   z-index: 1;
- 
 }
 #mysearch {
   position: absolute;
   top: 39%;
-  left: 32.5%;
+  left: 40%;
   width: 300px;
   height: 3rem;
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: 3px solid lightgray;
-  
 }
 ::placeholder {
   font-size: 20px;
@@ -79,8 +77,8 @@ h1 {
 .searchbar {
   position: relative;
   top: 2.5rem;
-  left: 10rem;
- height: 15rem;
+  height: 15rem;
+  width: 100vw;
 }
 
 /* cards  */
