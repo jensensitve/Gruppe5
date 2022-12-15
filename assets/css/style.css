@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*Shopping Cards*/
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 20%);
@@ -21,7 +22,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .card img {
@@ -50,12 +50,10 @@
 }
 
 .cards button:hover {
-    background-color: rgba(242, 198, 68, 0.802);
     box-shadow: 3px 3px;
 }
 
 .sold {
-    background-color: rgba(242, 198, 68, 0.481);
     pointer-events: none;
     color: grey;
 }
