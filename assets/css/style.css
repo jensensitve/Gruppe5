@@ -4,7 +4,29 @@
     box-sizing: border-box;
 }
 
-.cards {
+    h1{
+    position: absolute;
+    top: 20%; left: 30%;
+    z-index: 1;
+    }
+    #mysearch {
+    position: absolute;
+    top: 26%; left: 35%;
+    width: 300px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid lightgray;
+    
+    }
+    ::placeholder{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    left: 75%; top: 60%;
+    }
+    .cards {
     display: grid;
     grid-template-columns: repeat(4, 20%);
     justify-content: center;
